@@ -27,7 +27,3 @@ def test_get_student_details():
     response = requests.get(uri)
     print(response.status_code)
     print(response.content)
-
-
-test_insert_student()
-test_get_student_details()
